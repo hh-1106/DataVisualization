@@ -1,4 +1,4 @@
-import geomerative.*;          
+import geomerative.*;           //<>//
 
 public class SVGSystem {
   County USA;
@@ -27,7 +27,8 @@ public class SVGSystem {
       popMatrix();
     }
   }
-
+    
+  // Inspired by Kanvases
   public void highlight() {
 
     County c1 = null;
@@ -44,7 +45,6 @@ public class SVGSystem {
       }
     }
 
-    // Inspired by Kanvases
     if (!highlighting)  selectedID = "-1";
 
     if (selectedID != pselectedID) {

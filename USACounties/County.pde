@@ -73,8 +73,12 @@ public class County extends HShape {
 
     //this.H.setStrokeWeight(this.sWt);
     //this.H.scale(this.scl, this.pos);
+    
+    //this.H.setStrokeWeight(0.9);
+    //this.H.setFill(false);
+    //this.H.setStroke(color(330));
 
-    showText3D();
+    showText3D(); 
     //this.H.draw();
   }
 
