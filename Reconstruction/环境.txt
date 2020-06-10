@@ -1,0 +1,5 @@
+scikit-image              0.13.0                   conda install scikit-image
+vtk                       8.1.2                    conda install -c viscid-hub vtk
+mayavi                    4.7.1                    pip install Mayavi
+pyqt5                     5.11.3
+traits                    4.6.0
